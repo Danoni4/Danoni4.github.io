@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #050505;
+  color: #d1d1d1;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+
+.card {
+  background: #0b0b0b;
+  border-radius: 14px;
+  padding: 22px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.04);
+}
+
+h2 {
+  margin: 0 0 16px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #7aa2ff; /* АКЦЕНТНЫЙ ЦВЕТ */
+}
+
+p {
+  margin: 0 0 12px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+p span {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: #7f7f7f;
+  margin-bottom: 2px;
+}
+
+small {
+  color: #9a9a9a;
+  font-size: 13px;
+}
+
+/* Мобилка */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
